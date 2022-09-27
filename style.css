@@ -1,7 +1,6 @@
 /** style.css **/
 
 body {
-    display:flex;
     margin: 10px;
     padding: 5px;
 }
@@ -32,5 +31,7 @@ a:link {
     justify-content: right;
     margin-right: 10%;
     font-size: 30px;
-
+}
+.inprogress {
+    height:200px;
 }
