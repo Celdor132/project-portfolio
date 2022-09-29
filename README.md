@@ -1,5 +1,5 @@
 # project-portfolio
-A website created to share my projects
+A website created to share my projects and information.
 
 Credits:
     Logo: created on ucraft.com 
