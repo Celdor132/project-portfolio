@@ -1,10 +1,16 @@
 /** style.css **/
 
 body {
-   margin-left: 10%;
-   margin-right: 10%;
+    margin: 0;
+    padding: 0;
 }
-
+#banner {
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: grey;
+}
 .logo {
     height:175px;
 }
@@ -31,7 +37,7 @@ a:link {
     font-size: 30px;
 }
 
-.banner {
+.info {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +51,9 @@ a:link {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 40%;
+}
+h3 {
+    color: wheat;
 }
 
 .wip {
@@ -55,4 +63,5 @@ a:link {
 .ghpage {
     background-color: blue;
     font-size: large;
+    font-weight: 700;
 }
