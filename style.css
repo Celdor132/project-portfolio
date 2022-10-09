@@ -58,10 +58,28 @@ h3 {
 
 .wip {
     width: 550px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .ghpage {
     background-color: blue;
     font-size: large;
     font-weight: 700;
+    border-radius: 15px;
+}
+
+.img-showcase {
+    font-size: larger;
+}
+.imgs-li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+}
+
+.imgs {
+    width: 175px;
+    height: 150px;
 }
