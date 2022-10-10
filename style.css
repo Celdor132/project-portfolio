@@ -12,7 +12,7 @@ body {
     background-color: grey;
 }
 .logo {
-    height:175px;
+    height:100px;
 }
 
 .header {
@@ -89,6 +89,7 @@ h3 {
     width: 175px;
     height:150px;
     border-width: 175px;
+    border-radius: 15px;
 }
 
 
@@ -96,4 +97,62 @@ figcaption {
     color: wheat;
     width: 175px;
     text-align: center;
+}
+
+#quote-banner {
+    background-color: rgba(100,100,100,.5);
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.quote {
+    font-size: 30px;
+    text-align: center;
+}
+
+.quote-credit {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: end;
+}
+
+.endofpage {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    width: 50%;
+    background-color: blue;
+}
+.congrats {
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button-placement {
+    display: flex;
+    justify-content: center left;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: center;
+
+}
+.btt {
+    font-size: medium;
+    text-align: right;
+    background-color: blue;
+    border: 3px solid white;
+}
+.copyright {
+    text-align: center;
+    background-color: grey;
+    padding: 10px;
+    margin-bottom: 0;
 }
